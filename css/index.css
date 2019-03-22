@@ -300,9 +300,6 @@ footer nav a {
     text-decoration: none;
 }
 
-
-
-
 .about-content {
     display: flex;
     flex-wrap: wrap;
@@ -314,66 +311,42 @@ footer nav a {
     margin: 20px 0;
 }
 
-.about-content h4 {
+.about-content h1 {
     font-size: 20px;
-    margin: 5px 20px;
+    margin: 0px 20px;   
 }
 
 .about-content .about-text {
- border-bottom: 1px dashed black;
- padding-bottom: 40px;
- padding: 5px 0px 20px 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 40px;
+    padding: 5px 0px 20px 20px;
 }
 
 .about-content .pic {
-    padding: 10px;
-    /* border: 1px solid black; */
-    width: 400px;
-    /* background: whitesmoke; */
-    margin: 10px 0;
+    padding: 20px 0px 40px 0px;
+    width: 385px;
+    border-bottom: 1px dashed black;
+    margin-left: 15px;
 }
 
-.services-content .card button {
-    padding: 10px 40px;
+.about-content .pic button {
+    padding: 10px 30px;
     margin-top: 20px;
     cursor: pointer;
     background: white;
-    border-radius: 5px;
-    border: 1px solid black;
+    border-radius: 10px;
+    border: 2px solid black;
 }
 
-.services-content .card button:hover {
+.about-content .pic button:hover {
     background: black;
     color: white;
 } 
 
-.services-content .services-info ul {
-    margin: 20px;
-}
-
-.services-content .services-info ul li{
-    list-style: square;
-    padding: 5px;
-}
-
-.services-content .services-info {
+.about-content .work-together {
     display: flex;
     flex-wrap: wrap;
-    border-top: 2px solid black; 
-    margin: 20px 0 35px 0;
+    margin: 10px 0px 45px 20px;
     padding-top: 40px; 
 }
 
-.services-content .services-info .facts {
-  width: 400px;
-  margin: 0 60px 20px 0;
-}
-
-.services-content .services-info .facts p {
-  margin-bottom: 20px;
-}
-
-.services-content .services-info .services-info-img {
-  width: 420px;
-  height: 300px;
-}
