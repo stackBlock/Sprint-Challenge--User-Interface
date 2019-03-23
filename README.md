@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+A: semantic HTML is markup used to describe what is in the HTML code with words that humans and machines can understand. For example, the <p> tag is easily understood by humans and machines to mean paragraph.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+A: display block are usually situated vertically where display inline is horizontal, across the screen. display blocks can also be across the screen using display inline-block.
 
 3. What are the 4 areas of the box model?
 
+A: area, padding, border, margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+A: in the middle of the page, horizontally
+
 5. Explain why git is valuable to a team of developers.
+
+A: you can collaborate on projects easier by submitting different changes to the same work while keeping the master content safe to implement agreed upon final changes.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
